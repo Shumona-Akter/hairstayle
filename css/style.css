@@ -29,6 +29,8 @@ a{
 .main-container{
     padding-left: 100px;
     padding-right: 230px;
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
 .main-container-margin{
