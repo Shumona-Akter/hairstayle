@@ -40,6 +40,7 @@
     }
     .main-img-container {
         width: 280px;
+        margin: 118px auto 0;
     }
     .image-container {
         width: 120px;
@@ -50,8 +51,8 @@
         left: 73px;
     }
     .container-text {
-        margin-top: 170px;
         Width: 280px;
+        margin: 170px auto 0;
     }
     .input-field {
         width: 100%;
