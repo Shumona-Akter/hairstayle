@@ -255,4 +255,48 @@ form label{
     border-radius: 6px;
     line-height: 71px;
 }
+/* payment */
+.card-bodys{
+    padding: 20px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 6px;
+}
 
+.cl-1a{
+    color: #1A1F2A;
+}
+.opacity-5{
+    opacity: 0.5;
+}
+.cl-1a{
+    color: #1A1F2A;
+}
+.cl-2b{
+    color:  #2B65E9;
+}
+.bg-2b{
+    background:  #2B65E9;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fnt-inter{
+    font-family: 'Inter';
+}
+.pyment-btn{
+    
+    width: 100%;
+    border: 2px solid #4A4E58;
+    border-radius: 6px;
+    height: 68px;
+}
+.cheakmark-para-div{
+    height: 230px;
+}
