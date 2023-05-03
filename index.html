@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Style</title>
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <!-- font awssome -->
+    <script src="https://kit.fontawesome.com/a51f7db7fc.js" crossorigin="anonymous"></script>
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- plus jakarata font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="btn-flex absolute d-lg-none">
+        <button class="sprig ">
+            <div class="bar"></div>
+        </button>
+    </div>
+    <div class="main-container-margin">
+        <div>
+            <header class="header-bg mobile-nav main-container ">
+            <nav class=" d-flex flex-column flex-lg-row justify-content-between">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul class="d-flex flex-column flex-lg-row  ">
+                        <li>
+                            <a  class="bg-dd number ancol-18px ">1</a>
+                            <a href="">Upload photos</a></li>
+                        <li>
+                            <a  class="bg-d9 number ancol-18px">2</a>
+                            <a href="">Make Payment</a>
+                        </li>
+                        <li>
+                            <a  class="bg-d9 number ancol-18px">3</a>
+                            <a href="">Generate Hairstyles</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-container">
+                <h1 class="heading fs-40 mb-3 mt-5 mt-lg-0">Upload your photos</h1>
+                <p  class="para fs-18 mb-4 pb-2">Upload  9 -10 photos of your self, these will be used to generate your Quinceañera hairstyle</p>
+                <div class="line"></div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div>
+                            <div class="main-img-container">
+                                <div class="image-container"></div>
+                                <div class="image-container"></div>
+                                <div class="image-container home-img-3"></div>
+                            </div>
+                            <div class="container-text ">
+                                <h1 class="heading fs-30">Instructions</h1>
+                                <p class="para fs-18">Upload  9 -10 photos of your self, these will be used to generate your Quinceañera hairstyle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <form class="mt-5">
+                            <input type="text" class="photo-input" placeholder="photo1, photo2, photo3,photo3, photo5....">
+                            <div class="d-flex flex-column flex-lg-row justify-content-between mt-5">
+                                <div class="input-field">
+                                    <label class="mb-3">Name</label> <br>
+                                    <input class="name-field" type="text" placeholder="Name">
+                                </div>
+                                <div class="input-field">
+                                    <label class="my-3">Hair Type</label> <br>
+                                    <select class="name-field" id="select" name="select">
+                                      <option value="option1">Select Hair Type</option>
+                                      <option value="option2">Curly Hair</option>
+                                      <option value="option3">Option 3</option>
+                                    </select>
+                                    <p class="para-inter mt-5 my-lg-3">*Not required: But helps make output resemble you more</p>
+                                </div>
+                            </div>
+                            
+                            <label  class="para-inter checkbox my-3 my-lg-5 pt-3"	>
+                                <input type="checkbox" value="">
+                                 *I understand low-quality photos won’t qualify for refunds and I agree to the terms & conditions and privacy policy</label><br>
+                            <button type="submit" class="submit_btn" >
+                                <span >See Your Haistyles</span>
+                            <span class="ms-3"><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                          </form>
+                          
+                    </div>
+                </div>
+            </div>
+        </main>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
