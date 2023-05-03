@@ -300,3 +300,37 @@ form label{
 .cheakmark-para-div{
     height: 230px;
 }
+/* hair style */
+
+.style-item{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ margin: 50px 0 0 0;
+}
+.img-item{
+    width: 18.5%;
+    margin: 0 0 20px 0;
+}
+.img-style{
+    width: 100%;
+    height: 185px;
+}
+
+.img-style img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.download-btn{
+    background: #DD0568;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 6px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    padding: 14px 16px;
+    margin: 16px 0;
+    font-size: 20px;
+}
