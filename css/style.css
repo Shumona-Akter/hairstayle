@@ -173,10 +173,17 @@ main{
     Width:350px;
 
 }
+.home-img-1{
+    background: url(../images/style-2.png) no-repeat top / cover;
+}
+.home-img-2{
+    background: url(../images/style-1.png) no-repeat top / cover;
+}
 .home-img-3{
     position: absolute;
     top: 80px;
     left: 135px;
+    background: url(../images/style-3.png) no-repeat top / cover;
 }
 .photo-input{
     width: 100%;
@@ -263,16 +270,18 @@ form label{
     border: 2px solid #000000;
     box-shadow: 10px 10px 0px #000000;
     border-radius: 6px;
+    transition: all linear 0.3s;
+    background: #FFFFFF;
+    font-weight: 700;
 }
 
-.cl-1a{
-    color: #1A1F2A;
-}
+
 .opacity-5{
     opacity: 0.5;
 }
 .cl-1a{
     color: #1A1F2A;
+    transition: all linear 0.3s;
 }
 .cl-2b{
     color:  #2B65E9;
@@ -298,6 +307,7 @@ form label{
     border: 2px solid #4A4E58;
     border-radius: 6px;
     height: 68px;
+    transition: all linear 0.3s;
 }
 .cheakmark-para-div{
     height: 230px;
@@ -335,4 +345,22 @@ form label{
     padding: 14px 16px;
     margin: 16px 0;
     font-size: 20px;
+}
+.card-bodys:hover{
+    background: #2B65E9;
+    color: #FFFFFF;
+}
+.card-bodys:hover .cl-1a{
+    color:#fff;
+}
+.card-bodys:hover .pyment-btn{
+    background-color: #fff;
+    color: #2B65E9;
+}
+.text-ff{
+    color: #fff;
+}
+
+.card-bodys:hover .text-ff{
+    color: #2B65E9;
 }
