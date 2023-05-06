@@ -47,6 +47,23 @@
     .name-field {
         padding: 13px 5px;
     }
+
+    .selectdiv:after {
+        content: '>';
+        font: 25px "Consolas", monospace;
+        color: #333;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        right: 10px;
+        font-weight: 700;
+        
+        top: 45px;
+        padding: 0 0 2px;
+        position: absolute;
+        pointer-events: none;
+      }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -118,6 +135,9 @@
     .cheakmark-para-div{
         height: 260px;
     }
+    .selectdiv:after {
+        top: 60px;
+      }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .main-container-margin {
@@ -189,6 +209,9 @@
        .img-item{
         width: 48%;
     }
+    .selectdiv:after {
+        top: 60px;
+      }
 
 
 }
@@ -263,5 +286,9 @@
     main{
         padding: 20px 20px 100px;
     }
+    .selectdiv:after {
+        top: 60px;
+      }
     /* payment index */
+
 } 
