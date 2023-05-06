@@ -38,6 +38,15 @@
        .img-item{
         width: 23%;
     }
+
+    .selectdiv:after {
+        font: 35px "Consolas", monospace;
+        right: 5px;
+    }
+
+    .name-field {
+        padding: 13px 5px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
