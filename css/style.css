@@ -500,3 +500,29 @@ label a{
 label a:hover{
     color: #000000;
 }
+.upload-photos{
+    width: 100%;
+    position: relative;
+}
+
+.upload-photos img{
+    position: absolute;
+    width: 40px;
+    right: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.upload-placeholder::placeholder{
+    color: #1A1F2A;
+}
+
+form a{
+    
+}
+form .submit a{
+    text-decoration: none;
+}
+form:hover .submit a{
+    color: #fff;
+   
+}

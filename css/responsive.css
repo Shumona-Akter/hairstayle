@@ -5,6 +5,9 @@
         padding-left: 80px;
         padding-right: 170px;
     }
+    .upload-photos img{
+        right: 75px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   
@@ -64,6 +67,9 @@
         position: absolute;
         pointer-events: none;
       }
+      .upload-photos img{
+        right: 35px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -138,6 +144,10 @@
     .selectdiv:after {
         top: 60px;
       }
+      .upload-photos img{
+        right: 15px;
+    }
+
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .main-container-margin {
@@ -290,5 +300,13 @@
         top: 60px;
       }
     /* payment index */
+
+    .upload-photos img{
+        position: absolute;
+        width: 40px;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
 } 
