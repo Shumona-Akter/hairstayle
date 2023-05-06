@@ -41,15 +41,19 @@ a{
     background: rgba(252, 252, 252, 0.5);
 }
 nav{
-    height: 128px;
+    height: 90px;
     background: rgba(252, 252, 252, 0.5);
 }
 
 .logo{
-    line-height: 128px;
+    line-height: 90px;
+    width: 90px;
+}
+.logo img{
+    width: 100%;
 }
 .menu{
-    line-height: 128px;
+    line-height: 90px;
     text-decoration: none;
     background: rgba(252, 252, 252);
 }
@@ -65,11 +69,12 @@ nav{
     text-decoration: none;
 }
 .number{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     text-align: center;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 25px;
     border: 1px solid #000000;
 }
 
@@ -120,20 +125,20 @@ nav{
 /* main */
 main{
     background: #F5F5F7;
-    padding: 30px  0 150px;
+    padding: 20px  0 100px;
 }
 /* font size */
 .fs-16{
     font-size: 16px;
 }
 .fs-18{
-    font-size: 18px;
+    font-size: 16px;
 }
 .fs-40{
-    font-size: 40px;
+    font-size: 36px;
 }
 .fs-30{
-    font-size: 30px;
+    font-size: 28px;
 }
 .heading{
     font-family: 'Plus Jakarta Sans';
@@ -146,6 +151,7 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 23px;
+
     color: #000000;
 }
 .line{
@@ -155,7 +161,7 @@ main{
     opacity: 0.5;
 }
 .main-img-container{
-    margin-top: 118px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -171,7 +177,7 @@ main{
     border-radius: 16px;
 }
 .container-text{
-    margin-top: 128px;
+    margin-top: 115px;
     Width:350px;
 
 }
@@ -191,7 +197,7 @@ main{
     width: 100%;
     background: #FFFFFF;
     border: 2px dashed #000000;
-    height: 113px;
+    height: 85px;
     box-shadow: 10px 10px 0px #000000;
     border-radius: 6px;
     padding: 10px 20px;
@@ -199,7 +205,7 @@ main{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     resize: none;
     outline: none;
@@ -208,34 +214,32 @@ main{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     color: #2B65E9;
    
 }
-form label{
-            
-    font-family: 'Inter';
+form label {
+    font-family: Inter;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
-    color: #232733;
-
+    color: rgb(35, 39, 51);
 }
 .input-field{
     width: 47%;
     resize: none;
     outline: none;
 }
-.name-field{
+.name-field {
     width: 100%;
-    height: 72px;
+    height: 55px;
     background: #FFFFFF;
     border: 1px solid #000000;
     box-shadow: 10px 10px 0px #000000;
     border-radius: 6px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     resize: none;
     outline: none;
 }
@@ -243,7 +247,7 @@ form label{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -255,16 +259,16 @@ form label{
     color: #232733;
 }
 .submit_btn{
-    padding: 0 16px 0 35px;
+    padding: 0 10px 0 25px;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     color: #FFFFFF;
     background: #DD0568;
     border: 2px solid #000000;
     box-shadow: 10px 10px 0px #000000;
     border-radius: 6px;
-    line-height: 71px;
+    line-height: 61px;
 }
 /* payment */
 .card-bodys{
@@ -292,27 +296,29 @@ form label{
     background:  #2B65E9;
 }
 .fs-48{
-    font-size: 48px;
+    font-size: 38px;
 }
 .fs-24{
-    font-size: 24px;
+    font-size: 20px;
 }
 .fs-20{
-    font-size: 20px;
+    font-size: 18px;
 }
 .fnt-inter{
     font-family: 'Inter';
+    /* margin-bottom: 0px; */
+    
 }
 .pyment-btn{
     
     width: 100%;
     border: 2px solid #4A4E58;
     border-radius: 6px;
-    height: 68px;
+    height: 50px;
     transition: all linear 0.3s;
 }
 .cheakmark-para-div{
-    height: 230px;
+    height: 190px;
 }
 /* hair style */
 
@@ -337,16 +343,19 @@ form label{
     object-fit: cover;
     object-position: top;
 }
-.download-btn{
+.download-btn {
     background: #DD0568;
     border: 2px solid #000000;
     box-shadow: 10px 10px 0px #000000;
     border-radius: 6px;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
-    padding: 14px 16px;
-    margin: 16px 0;
-    font-size: 20px;
+    padding: 6px 12px;
+    margin: 7px 0 16px 0;
+    font-size: 16px;
+}
+.img-item a{
+    text-decoration: none;
 }
 .card-bodys:hover{
     background: #2B65E9;
@@ -366,14 +375,12 @@ form label{
 .card-bodys:hover .text-ff{
     color: #2B65E9;
 }
+.card-bodys:hover .cl-2b{
+    color: #ffffff;
+}
 
 .selectdiv {
     position: relative;
-    /*Don't really need this just for demo styling*/
-    
-    /* float: left; */
-    /* min-width: 200px; */
-    /* margin: 50px 33%; */
   }
   
   /* IE11 hide native button (thanks Matt!) */
@@ -383,7 +390,7 @@ form label{
   
   .selectdiv:after {
     content: '>';
-    font: 35px "Consolas", monospace;
+    font: 25px "Consolas", monospace;
     color: #333;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -391,13 +398,9 @@ form label{
     transform: rotate(90deg);
     right: 15px;
     font-weight: 700;
-    /*Adjust for position however you want*/
     
-    top: 57px;
+    top: 45px;
     padding: 0 0 2px;
-    /* border-bottom: 1px solid #999; */
-    /*left line */
-    /* transform: ; */
     position: absolute;
     pointer-events: none;
   }
@@ -410,70 +413,23 @@ form label{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     width: 100%;
-    /* max-width: 320px; */
-    /* height: 50px; */
-    /* float: right; */
-    /* margin: 5px 0px; */
-    /* padding: 0px 24px; */
-    /* font-size: 16px; */
-    /* line-height: 1.75; */
     color: #333;
-    /* background-color: #ffffff; */
     background-image: none;
-    /* border: 1px solid #cccccc; */
     -ms-word-break: normal;
     word-break: normal;
   }
 
 
-/* 
-  input[type=checkbox] {
-    position: relative;
-      cursor: pointer;
-}
-*/
-/* input[type=checkbox]:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 0;
-    border: 2px solid #555555;
-    border-radius: 3px;
-    background-color: transparent;
-    border: 3px solid #000000;
-box-shadow: 4px 4px 0px #000000;
-border-radius: 6px;
-}
-input[type=checkbox]:checked:after {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 20px;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 2px;
-    left: 10px;
-    background-color: red;
-}  */
+
 
 
 .checkbox {
     display: block;
     position: relative;
-    /* padding-left: 35px; */
-    /* margin-bottom: 12px; */
     cursor: pointer;
-    /* font-size: 22px; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -492,7 +448,7 @@ input[type=checkbox]:checked:after {
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
-    top: 14px;
+    top: 47px;
     left: 0;
     height: 34px;
     width: 34px;

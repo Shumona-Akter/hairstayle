@@ -113,6 +113,11 @@
        .img-item{
         width: 30%;
     }
+
+    /* payment */
+    .cheakmark-para-div{
+        height: 260px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .main-container-margin {
