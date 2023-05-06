@@ -364,3 +364,102 @@ form label{
 .card-bodys:hover .text-ff{
     color: #2B65E9;
 }
+
+.selectdiv {
+    position: relative;
+    /*Don't really need this just for demo styling*/
+    
+    /* float: left; */
+    /* min-width: 200px; */
+    /* margin: 50px 33%; */
+  }
+  
+  /* IE11 hide native button (thanks Matt!) */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv:after {
+    content: '>';
+    font: 35px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 15px;
+    font-weight: 700;
+    /*Adjust for position however you want*/
+    
+    top: 57px;
+    padding: 0 0 2px;
+    /* border-bottom: 1px solid #999; */
+    /*left line */
+    /* transform: ; */
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    /* max-width: 320px; */
+    /* height: 50px; */
+    /* float: right; */
+    /* margin: 5px 0px; */
+    /* padding: 0px 24px; */
+    /* font-size: 16px; */
+    /* line-height: 1.75; */
+    color: #333;
+    /* background-color: #ffffff; */
+    background-image: none;
+    /* border: 1px solid #cccccc; */
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+
+
+/* 
+  input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+*/
+/* input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 3px solid #000000;
+box-shadow: 4px 4px 0px #000000;
+border-radius: 6px;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 20px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    /* background-color: red; */
+}  */
